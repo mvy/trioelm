@@ -25,7 +25,7 @@ var titles = [
   'Madlax OP - Hitomi no Kakera',
   'Madoka Magica - Sis Puella Magica!',
   'Mushishi OP - The Sore Feet Song',
-  'Naruto OP - Wind',
+  'Naruto ED - Wind',
   'No Game No Life OP - This Game',
   'Noir OP - Kopperia no hitsugi',
   'Perfect Blue - Cherish These Memories',
