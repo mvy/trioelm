@@ -4,7 +4,7 @@ var titles = [
   'Attack on Titan ED - Utsukushiki zankoku na sekai',
   'Attack on Titan OP - Guren no Yumiya',
   'Ayashi no Ceres - Scarlet',
-  'Bakemonogatari OP - Kimi no shiranai monogatari',
+  'Bakemonogatari ED - Kimi no shiranai monogatari',
   'Code Geass - Innocent Days',
   'Cosmo Warrior Zero ED - The Book of Life',
   'Cowboy Bebop - ELM',
