@@ -154,6 +154,8 @@
   title: This Game
   description: Premier opening.
   key: ThisGame
+  youtube: Ql4e4WiS-a4
+
 -
   anime: Perfect Blue
   title: Cherish These Memories
@@ -250,6 +252,7 @@
 -
   anime: Durarara!!
   title: Uragiri no yuuyake
+  youtube: zpf1S_7lziA
   description: Opening.
   key: Uragiri
 -
@@ -262,7 +265,8 @@
   key: KeyboardCat
 -
   anime: Neon Genesis Evangelion
-  youtube: hewc8yF7Fos
+  loljapon: hewc8yF7Fos
+  epitanime2016-yoru: tSa6kmDoog8
   title: Zankoku na Tenshi no THESE
   key: Evangelion
 - 
@@ -352,3 +356,25 @@
   title: Hemisphere
   description: Premier opening
   key: Hemisphere
+-
+  anime: Noir
+  title: Canta per me
+  youtube: Utwjmhw1lgE
+  key: CantaPerMe
+-
+  anime: Steins;Gate
+  title: Hacking to the Gate
+  key: HackingToTheGate
+-
+  anime: Angel Beats!
+  title: My Soul, Your Beats!
+  key: MySoulYourBeats
+-
+  anime: ERASED
+  title: "Re:Re:"
+  key: Re:Re
+-
+  anime: Shinsekai yori
+  title: Wareta Ringo
+  youtube: HpFe5yOMxrg
+  key: WaretaRingo

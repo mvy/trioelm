@@ -28,36 +28,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
-  <script src="/js/websocket.js"></script>
+  <!-- <script src="/js/websocket.js"></script> -->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body onload="doConnect();">
-
-  <div style="display: none">
-    <div id="output"></div>
-
-    <form name="myform">
-    <p>
-    <textarea name="outputtext" rows="20" cols="50"></textarea>
-    </p>
-    <p>
-    <textarea name="inputtext" cols="50"></textarea>
-    </p>
-    <p>
-    <textarea name="url" cols="50"></textarea>
-    </p>
-    <p>
-    <input type="button" name=sendButton value="Send" onClick="sendText();">
-    <input type="button" name=clearButton value="Clear" onClick="clearText();">
-    <input type="button" name=disconnectButton value="Disconnect" onClick="doDisconnect();">
-    <input type="button" name=connectButton value="Connect" onClick="doConnect();">
-    </p>
-    </form>
-  </div>
+<body>
 
   <div class="section" style="background: #050f37; margin: 0; padding: 0">
     <img class="pure-img" src="/img/banner.gif" style="max-width: 100%; border-color: black; border-style: solid; display: block; margin: auto; vertical-align: middle" />
@@ -66,19 +44,19 @@
       <a href="https://twitter.com/trioelm" target="_blank"><img src="/img/twitter.png" /></a>
       <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw" target="_blank"><img src="/img/youtube.png" /></a>
     </div>
-    <div class="banner">
+    <!-- <div class="banner">
         En concert à <a href="http://www.epita-convention.com/2016/03/concert-trio-elm/" target="_blank">Epitanime</a> vendredi 27 et samedi 28 mai !
-    </div>
+    </div> -->
   </div>
 
   <div class="section">
     <div class="container">
-      <h2>Votez en cliquant sur vos chansons préférées, pour influencer notre live !</h2>
-        <a href="https://twitter.com/intent/tweet?text=Votez pour les chansons du Trio ELM ! En concert vendredi 27 mai à @EpitaConvention&amp;url=http://trioelm.com&amp;via=trioelm&amp;related=" class="button button-primary">Partager sur Twitter</a>
+      <h2>Nous étions en concert à Epitanime fin mai !<br />
+      <a href="/concerts/epitanime2016-yoru.html">Découvrez le programme</a></h2>
+      <a href="https://twitter.com/intent/tweet?text=Retrouvez le dernier concert du Trio ELM à @EpitaConvention sur YouTube !&amp;url=http://trioelm.com&amp;via=trioelm&amp;related=" class="button button-primary">Partager sur Twitter</a>
       <a href="https://facebook.com/sharer.php?u=http://trioelm.com" class="button button-primary">Partager sur Facebook</a>
-      <hr />
-      <ul id="grid">
-      </ul>
+      <!-- <ul id="grid">
+      </ul> -->
     </div>
   </div>
 
@@ -90,21 +68,24 @@
       <h2>Nos dernières vidéos</h2>
       <div class="row">
         <div class="one-third column value">
-          <h5 class="value-heading">Madlax - Hitomi no Kakera</h5>
+          <h5 class="value-heading">My Soul, Your Beats!</h5>
+          <a href="https://youtu.be/DP4zeXMr1a8">Angel Beats!</a>
           <div class="youtube-container">
-            <div class="youtube-player" data-id="d-0yzwt8x_k"></div>
+            <div class="youtube-player" data-id="DP4zeXMr1a8"></div>
           </div>
         </div>
         <div class="one-third column value">
-          <h5 class="value-heading">Utawarerumono - Musouka</h5>
+          <h5 class="value-heading">Hacking to the Gate</h5>
+          <a href="https://youtu.be/1wr72lM4Xfw">Steins;Gate</a>
           <div class="youtube-container">
-            <div class="youtube-player" data-id="Aen_x8AHByQ"></div>
+            <div class="youtube-player" data-id="1wr72lM4Xfw"></div>
           </div>
         </div>
         <div class="one-third column value">
-          <h5 class="value-heading">Terror in Resonance - is</h5>
+          <h5 class="value-heading">Canta per me</h5>
+          <a href="https://youtu.be/Utwjmhw1lgE">Noir</a>
           <div class="youtube-container">
-            <div class="youtube-player" data-id="V77zryD7dtw"></div>
+            <div class="youtube-player" data-id="Utwjmhw1lgE"></div>
           </div>
         </div>
       </div>
