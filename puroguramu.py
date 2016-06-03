@@ -23,7 +23,7 @@ for filename in glob.glob('concerts/*.yaml'):
     for category in ['program', 'encores']:
         if category in concert:
             for key in concert[category]:
-                piece = full_piece[key]
+                piece = full_piece[key].copy()  # We need to make a copy
                 if basename in piece:
                     piece['url'] = 'http://youtu.be/%s' % piece[basename]
                 concert.setdefault('full_%s' % category, []).append(piece)
