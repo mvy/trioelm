@@ -1,62 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+{% include "header.html" %}
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Trio ELM - Reprises de musiques d'anime</title>
-  <meta name="description" content="Un pianiste et deux chanteuses : voici le Trio ELM et ses magnifiques adaptations tirées de bandes originales de longs métrages et d'anime !">
-  <meta name="author" content="Jill-Jênn Vie">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <link rel="stylesheet" href="/css/ranking.css">
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
-  <!-- <script src="/js/websocket.js"></script> -->
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
 <body>
 
-  <div class="section" style="background: #050f37; margin: 0; padding: 0">
-    <img class="pure-img" src="/img/banner.gif" style="max-width: 100%; border-color: black; border-style: solid; display: block; margin: auto; vertical-align: middle" />
-    <div class="container" style="text-align: center; margin-top: 0.5em">
-      <a href="https://fb.me/trioelm" target="_blank"><img src="/img/facebook.png" /></a>
-      <a href="https://twitter.com/trioelm" target="_blank"><img src="/img/twitter.png" /></a>
-      <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw" target="_blank"><img src="/img/youtube.png" /></a>
-    </div>
-    <!-- <div class="banner">
-        En concert à <a href="http://www.epita-convention.com/2016/03/concert-trio-elm/" target="_blank">Epitanime</a> vendredi 27 et samedi 28 mai !
-    </div> -->
-  </div>
+  {% include "banner.html" %}
 
   <div class="section">
     <div class="container">
-      <h2>Nous étions en concert à Epitanime fin mai !<br />
-      Découvrez le programme <a href="/concerts/epitanime2016-asa.html">Jour</a> / <a href="/concerts/epitanime2016-yoru.html">Nuit</a></h2>
-      <a href="https://twitter.com/intent/tweet?text=Retrouvez le dernier concert du Trio ELM à @EpitaConvention sur YouTube !&amp;url=http://trioelm.com&amp;via=trioelm&amp;related=" class="button button-primary">Partager sur Twitter</a>
-      <a href="https://facebook.com/sharer.php?u=http://trioelm.com" class="button button-primary">Partager sur Facebook</a>
-      <!-- <ul id="grid">
-      </ul> -->
+      {% include "news.html" %}
     </div>
   </div>
 
@@ -65,127 +15,32 @@
 
   <div class="section values">
     <div class="container">
-      <h2>Nos dernières vidéos</h2>
-      <div class="row">
-        <div class="one-third column value">
-          <h5 class="value-heading">Zankoku na Tenshi no These</h5>
-          <a href="https://youtu.be/tSa6kmDoog8">Evangelion</a>
+      <h2>Écoutez nos dernières vidéos</h2>
+      <input type="text" size="36" class="quicksearch form-control" placeholder="Entrez un nom d'anime ou d'anisong" aria-describedby="sizing-addon1"><br />
+
+      <div class="btn-group filter-btn-group">
+        <button type="button" data-filter="*" class="btn btn-default">Tout</button>
+        <button type="button" data-filter=".interq" class="btn btn-default" style="background-image: url('/img/concerts/interq.jpg')">ENS</button>
+        <button type="button" data-filter=".epitanime-asa, .epitanime-yoru, .epitanime2016-asa, .epitanime2016-yoru" class="btn btn-default" style="background-image: url('/img/concerts/epitanime.jpg')">Epitanime</button>
+        <!-- <button type="button" data-filter=".japanexposud2016" class="btn btn-default" style="background-image: url('/img/concerts/japanexpo.png')"></button> -->
+        <button type="button" data-filter=".telethon-i, .telethon-ii" class="btn btn-default" style="background-image: url('/img/concerts/telethon.jpg')">Téléthon</button>
+        <button type="button" data-filter=".mines" class="btn btn-default" style="background: #000 url('/img/concerts/mines.jpg') 50% 20px/cover no-repeat">Mines</button>
+      </div>
+
+      <hr />
+      <div id="videos" class="row">
+      {% for video in all_videos %}
+        <div class="one-third column value {{ video.concert }}">
+          <h5 class="value-heading work">{{ video.work }}</h5>
+          <a href="https://youtu.be/{{ video.id }}" class="title">{{ video.title }}</a>
           <div class="youtube-container">
-            <div class="youtube-player" data-id="tSa6kmDoog8"></div>
+            <div class="youtube-player" data-id="{{ video.id }}"></div>
           </div>
         </div>
-        <div class="one-third column value">
-          <h5 class="value-heading">This Game</h5>
-          <a href="https://youtu.be/Ql4e4WiS-a4">No Game No Life</a>
-          <div class="youtube-container">
-            <div class="youtube-player" data-id="Ql4e4WiS-a4"></div>
-          </div>
-        </div>
-        <div class="one-third column value">
-          <h5 class="value-heading">Canta per me</h5>
-          <a href="https://youtu.be/Utwjmhw1lgE">Noir</a>
-          <div class="youtube-container">
-            <div class="youtube-player" data-id="Utwjmhw1lgE"></div>
-          </div>
-        </div>
+      {% endfor %}
       </div>
       <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw" target="_blank">Voir toutes les vidéos</a>
     </div>
   </div>
 
-  <div class="section">
-    <div class="container">
-      <h2 class="section-heading">Nos derniers concerts</h2>
-      <ul>
-        {% for concert in all_concerts %}
-          <li><a href="/{{ concert.url }}">{{ concert.title }}, le {{ concert.date }}</a></li>
-        {% endfor %}
-      </ul>
-      Pour ne manquer aucun concert, rejoignez-nous sur <a href="https://fb.me/trioelm" target="_blank">Facebook</a> ou <a href="https://twitter.com/trioelm" target="_blank">Twitter</a> !
-
-    </div>
-  </div>
-
-  <div class="section values">
-    <div class="container">
-      <h2>Qui sommes-nous ?</h2>
-      <div class="row">
-        <div class="one-third column value">
-          <h5 class="value-heading">JJ</h5>
-          <img src="/img/jjchibi.png" />
-          <p>Pianiste fou<br /><a href="http://mangaki.fr" target="_blank">Mangaki.fr</a></p>
-          <a href="https://twitter.com/jjvie"><img src="/img/twitter.png" /></a>
-          <a href="https://youtube.com/user/Xnihpsel"><img src="/img/youtube.png" /></a>
-        </div>
-        <div class="one-third column value">
-          <h5 class="value-heading">Sedeto</h5>
-          <img src="/img/sedetochibi.png" />
-          <p>Directrice artistique<br /><a href="https://www.facebook.com/DoujinStyle/" target="_blank">Doujin Style</a></p>
-          <a href="https://www.facebook.com/DoujinStyle/" target="_blank"><img src="/img/facebook.png" /></a>
-          <a href="https://twitter.com/sedeto" target="_blank"><img src="/img/twitter.png" /></a>
-        </div>
-        <div class="one-third column value">
-          <h5 class="value-heading">Lily</h5>
-          <img src="/img/lilychibi.png" />
-          <p>Chanteuse professionnelle<br /><a href="https://www.facebook.com/leslueursdelily" target="_blank">Les Lueurs de Lily</a></p>
-          <a href="https://www.facebook.com/leslueursdelily" target="_blank"><img src="/img/facebook.png" /></a>
-          <a href="https://www.youtube.com/user/leslueursdelily" target="_blank"><img src="/img/youtube.png" /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="container">
-      <h2 class="section-heading">Contactez-nous</h2>
-      trioelm@gmail.com
-
-      <hr />
-
-      <a href="https://fb.me/trioelm"><img src="/img/facebook.png" /></a>
-      <a href="https://twitter.com/trioelm"><img src="/img/twitter.png" /></a>
-      <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw"><img src="/img/youtube.png" /></a>
-
-    </div>
-  </div>
-
-<script>
-(function() {
-    var v = document.getElementsByClassName("youtube-player");
-    for (var n = 0; n < v.length; n++) {
-        var p = document.createElement("div");
-        p.innerHTML = labnolThumb(v[n].dataset.id);
-        p.onclick = labnolIframe;
-        v[n].appendChild(p);
-    }
-})();
- 
-function labnolThumb(id) {
-    return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
-}
- 
-function labnolIframe() {
-    var iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "//www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0");
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("id", "youtube-iframe");
-    this.parentNode.replaceChild(iframe, this);
-}
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64155852-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<script src="/js/ranking.js"></script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
+{% include "footer.html" %}

@@ -7,112 +7,138 @@
 -
   anime: Le Château ambulant
   title: The Merry-Go-Round of Life
-  youtube: 45Ms9-t-Pr4
+  youtube:
+    interq: 45Ms9-t-Pr4
   description: Ending, composé par Joe Hisaishi.
   key: ChâteauAmbulant
 -
   anime: Naruto
   title: Wind
-  youtube: blyQCa53uJI
+  youtube:
+    interq: blyQCa53uJI
+    epitanime-yoru: BCKEy7ExFx4
+    mines: gSt23-0hKq8
   description: Premier ending.
   key: Wind
+  desc: ED1
 -
   game: Mario
   title: Medley
-  youtube: HFRSt1k5apI
+  youtube:
+    interq: HFRSt1k5apI
   key: MarioMedley
 - 
   anime: Puella Magi Madoka Magica
   title: Sis Puella Magica!
-  youtube: LFxfZqJD5I4
+  youtube:
+    interq: LFxfZqJD5I4
   description: Composé par Yuki Kajiura.
   key: SisPuellaMagica
 - 
   game: Final Fantasy IX
   title: Vamo' Alla Flamenco
-  youtube: BKMI08jrbk4
+  youtube:
+    interq: BKMI08jrbk4
   sheet: http://ffdream.com/downld-ostff9_piano.html
   description: Thème du mini-jeu <em>Chocobo Hot and Cold</em>, composé par Nobuo Uematsu.
   key: VamoAllaFlamenco
 - 
   game: .hack//G.U.
   title: Yasashii ryoute (Gentle Hands)
-  youtube: nz04At-3NlQ
+  youtube:
+    interq: nz04At-3NlQ
+    mines: mvwY27S4gZU
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/yasashii-ryoute-gentle-hands.html
   description: "Je n'ai pas eu l'occasion de raconter l'anecdote pendant le concert, donc je vais le faire ici :) Je fais partie d'une communauté de transcriveurs de <a href=\"/anime-sheet-music/\">partitions</a> et, forcément, le but est de sortir la partition d'une musique inédite le plus vite possible. C'est ainsi que lorsqu'en <strong>mai 2005</strong>, à l'<a href=\"http://fr.wikipedia.org/wiki/Electronic_Entertainment_Expo\" target=\"_blank\">E3</a>, un trailer du jeu <em>.hack//G.U.</em> a été présenté (un an avant sa sortie), la <a href=\"https://www.youtube.com/watch?v=ZlzDhkE2Hlo\" target=\"_blank\">chanson en fond</a> a suscité un vif intérêt auprès de la communauté. Problème : en même temps que la chanson, les personnages du jeu braillent, ce qui compromet la transcription. Une pléthore d'internautes réclament le titre de la chanson sur des forums, mais la musique reste introuvable. Désespérés, certains vont jusqu'à extraire les fréquences des voix de la bande son pour ne laisser que la chanson seule, ponctuée de miasmes, ce qui se révèle peu satisfaisant. Il a finalement fallu attendre la sortie officielle de l'OST en <strong>août 2006</strong> puis son rapide <em>leak</em> sur eMule pour découvrir le titre de la chanson (<em>Yasashii ryoute</em>) et pouvoir la transcrire correctement."
   key: YasashiiRyoute
 - 
   game: Final Fantasy X
   title: To Zanarkand
-  youtube: 9cy1wB261Wo
+  youtube:
+    interq: 9cy1wB261Wo
   sheet: http://ffdream.com/downld-ostff10_piano.html
   description: Thème d'ouverture.
   key: ToZanarkand
 - 
   anime: Princesse Mononoké
   title: Mononoke-hime
-  interq: enrJ_IWXKpA
-  epitanime-yoru: h3Aq9scXrxg
+  youtube:
+    interq: enrJ_IWXKpA
+    epitanime-yoru: h3Aq9scXrxg
+    epitanime2016-yoru: 1BRdWJvNw-s
   description: Ending.
   key: MononokeHime
+  desc: ED
 - 
   anime: Steins;Gate
   title: GATE OF STEINER
-  youtube: aM3AFxxZSAQ
+  youtube:
+    interq: aM3AFxxZSAQ
   sheet: http://sperion.web.fc2.com/anime-sheet-music/gateofsteiner_piano.pdf
   description: Composé par Chiyomaru Shikura, le fondateur de 5pb., l'entreprise qui a conçu le <em>visual novel</em> <em>Steins;Gate</em> avant d'en produire l'<em>anime</em>.
   key: GateOfSteiner
 - 
   anime: Cowboy Bebop
   title: ELM
-  youtube: AK8h8rtAncI
+  youtube:
+    interq: AK8h8rtAncI
   description: "Thème de la course poursuite (oui oui, <a href=\"https://www.youtube.com/watch?v=eHqMXG8lBLA&t=16m56s/\">voir l'épisode à partir de 15:30</a>) de l'épisode 10 « Ganymede Elegy », composé par Yoko Kanno."
   key: ELM
 - 
   game: Final Fantasy VII
   title: Those Who Fight
-  youtube: S9ldEp37DLI
+  youtube:
+    interq: S9ldEp37DLI
   sheet: http://ffdream.com/downld-ostff7_piano.html
   description: "Thème principal des combats. Apparaît aussi dans le film <em>Final Fantasy VII: Advent Children</em>."
   key: Fighting
 - 
   anime: Wolf's Rain
   title: Gravity
-  youtube: IhMINovibzw
+  youtube:
+    interq: IhMINovibzw
   sheet: http://ichigos.com/sheets/w
   description: Ending, composé par Yoko Kanno.
   key: Gravity
+  desc: ED
 - 
   game: Pokémon Rouge et Bleu
   title: Gym Leader Battle Theme
-  youtube: MuDsEhhNomk
+  youtube:
+    interq: MuDsEhhNomk
   description: "<a href=\"http://www.journaldugamer.com/2014/02/17/milliers-jouer-a-pokemon-meme-temps/\">PRAISE HELIX</a>."
   key: GymLeader
 - 
   anime: Cosmo Warrior Zero
   title: The Book of Life
-  youtube: Ni_Hn13IOn8
+  youtube:
+    interq: Ni_Hn13IOn8
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/the-book-of-life.html
   description: Ending.
   key: BookOfLife
+  desc: ED
 - 
   game: Final Fantasy VIII
   title: Shuffle or Boogie
-  youtube: XKA9gGLUk8A
+  youtube:
+    interq: XKA9gGLUk8A
   sheet: http://ffdream.com/downld-ostff8_piano.html
   description: Thème du jeu de cartes.
   key: ShuffleOrBoogie
 - 
   game: Pokémon Or et Argent
   title: Lucky Channel, Game Corner
-  youtube: 7CVUf1IxDpA
+  youtube:
+    interq: 7CVUf1IxDpA
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/lucky-channel-game-corner.html
   description: Thème du casino et de la radio.
   key: LuckyChannel
 - 
   anime: Le Voyage de Chihiro
   title: Itsumo nando demo
-  youtube: 60WRw8Boqyw
+  youtube:
+    interq: 60WRw8Boqyw
+    epitanime2016-asa: 0Qr0X71s1l4
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/itsumo-nando-demo.html
   description: Ending.
   key: ItsumoNandoDemo
@@ -123,43 +149,55 @@
 - 
   game: Final Fantasy X-2
   title: Memory of Waves and Light
-  youtube: C8fxIRgIqLg
+  youtube:
+    interq: C8fxIRgIqLg
   description: Thème d'ouverture.
   key: MemoryWavesLight
 - 
   anime: Le Château dans le ciel
   title: Sheeta's Decision &amp; Kimi wo nosete
-  youtube: GngNZlhT42U
+  youtube:
+    interq: GngNZlhT42U
+    telethon-ii: p5FdKvuCXJk
   description: Musique du film et ending.
   key: KimiWoNosete
+  desc: ED
 - 
   anime: Mushishi
   title: The Sore Feet Song
-  interq: OKd5_MbtuD8
-  epitanime-yoru: 7lt6x_rax6s
+  youtube:
+    interq: OKd5_MbtuD8
+    epitanime-yoru: 7lt6x_rax6s
   description: Opening.
   key: SoreFeetSong
+  desc: OP1
 - 
   game: "The Legend of Zelda"
   title: Main Theme
-  youtube: 0q5OzWLEz2E
+  youtube:
+    interq: 0q5OzWLEz2E
   key: Zelda
 -
   anime: Vision d'Escaflowne
   title: Sora
   key: Sora
+  youtube:
+    mines: cxKrEWkmZKQ
 -
   anime: FullMetal Alchemist
   title: Bratja
   description: Composé par Michiru Ōshima.
   key: Bratja
+  youtube:
+    mines: ZTQ-Pka3lA4
 -
   anime: No Game No Life
   title: This Game
   description: Premier opening.
   key: ThisGame
-  youtube: Ql4e4WiS-a4
-
+  youtube:
+    epitanime2016-yoru: Ql4e4WiS-a4
+  desc: OP
 -
   anime: Perfect Blue
   title: Cherish These Memories
@@ -172,95 +210,134 @@
   key: Utsukushiki
 -
   anime: Noir
-  title: Kopperia no hitsugi
+  title: Coppelia no hitsugi
   description: Opening.
   key: Kopperia
+  youtube:
+    mines: _T_0GT_Q5f8
+  desc: OP
 -
   anime: Le Château ambulant
   title: Sekai no yakusoku
   description: Ending.
   key: SekaiNoYakusoku
+  desc: ED
 -
   anime: Utawarerumono
   title: Musouka
-  youtube: RP7AvoeaUpM
+  youtube:
+    epitanime-yoru: RP7AvoeaUpM
+    telethon-i: Aen_x8AHByQ
   description: Opening.
   key: Musouka
+  desc: OP1
 -
   anime: Terror in Resonance
-  youtube: V77zryD7dtw
+  youtube:
+    telethon-i: V77zryD7dtw
   title: is
   description: Thème de la superbe scène à moto.
   key: Is
 -
   anime: Elfen Lied
-  youtube: BHTH23GxXGs
+  youtube:
+    epitanime2016-yoru: lISbTKh2JDA
+    telethon-i: BHTH23GxXGs
   title: Lilium
   sheet: http://josh.agarrado.net/music/anime/get/1129/elfen-lied-lilium-full-version.pdf
   description: Opening.
   key: Lilium
+  desc: OP
 -
   anime: Tokyo Ghoul
   title: Glassy Sky
   key: GlassySky
+  youtube:
+    mines: X6AULh9hOow
 -
   anime: "FullMetal Alchemist: Brotherhood"
-  youtube: k3Z4GvBe--U
+  youtube:
+    epitanime-yoru: k3Z4GvBe--U
   title: Again
   description: Premier opening.
   key: Again
+  desc: OP1
 -
   anime: La Mélancolie de Haruhi Suzumiya
   title: Bouken Desho Desho?
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/bouken-desho-desho.html
   description: Premier opening.
   key: BoukenDeshoDesho
+  youtube:
+    epitanime2016-asa: mUecHmVHWKU
+    mines: tLhn4y5divY
+  desc: OP
 -
   anime: Vision d'Escaflowne
   title: Yakusoku wa iranai
-  youtube: 8ghDSxbNZUA
+  youtube:
+    loljapon: 8ghDSxbNZUA
+    telethon-i: ZEX5kHdxkm4
   description: Opening.
   key: YakusokuWaIranai
+  desc: OP
 -
   anime: .hack//SIGN
-  youtube: 14Nc1cxk3sY
+  youtube:
+    epitanime-yoru: 14Nc1cxk3sY
+    mines: VAEkbr2R5s4
   title: Fake Wings
   sheet: http://jill-jenn.net/anime-sheet-music/pdf/fake-wings.html
   description: Thème de Subaru.
   key: FakeWings
 -
   anime: Record of Lodoss War
-  youtube: mnYSMkeR-rs
+  youtube:
+    telethon-i: mnYSMkeR-rs
   title: Adesso e fortuna
   description: Opening, composé par Yoko Kanno.
   key: Adesso
+  desc: OP
 -
   anime: Ayashi no Ceres
   title: Scarlet
   key: Scarlet
+  youtube:
+    mines: mv8Ea3kxauI
+  desc: OP
 -
   anime: Loveless
-  youtube: j_uSSAYKmsc
+  youtube:
+    telethon-i: j_uSSAYKmsc
   title: Michiyuki
   key: Michiyuki
+  desc: ED
 -
   anime: Fate/stay night
   title: Disillusion
   description: Opening.
   key: Disillusion
+  youtube:
+    mines: cOZ8PEYq7Vs
 -
   anime: Bakemonogatari
   title: Kimi no shiranai monogatari
   description: Ending.
   key: KimiNoShiranaiMonogatari
+  youtube:
+    epitanime2016-asa: K7G5VAnFhxw
+  desc: ED
 -
   anime: Durarara!!
   title: Uragiri no yuuyake
-  youtube: zpf1S_7lziA
+  youtube:
+    epitanime2016-yoru: zpf1S_7lziA
+    mines: wYcmYAV4_yE
   description: Opening.
   key: Uragiri
+  desc: OP
 -
-  anime: ???
+  anime: "???"
   title: Surprise !
   key: Surprise
 -
@@ -269,9 +346,12 @@
   key: KeyboardCat
 -
   anime: Neon Genesis Evangelion
-  loljapon: hewc8yF7Fos
-  epitanime2016-yoru: tSa6kmDoog8
-  title: Zankoku na Tenshi no THESE
+  youtube:
+    loljapon: hewc8yF7Fos
+    epitanime2016-yoru: tSa6kmDoog8
+    mines: 8SMUL4rrVRo
+  title: Zankoku na Tenshi no These
+  desc: OP
   key: Evangelion
 - 
   game: "The Legend of Zelda: A Link to the Past"
@@ -279,7 +359,8 @@
   key: DarkWorld
 -
   anime: Zankyou no Terror
-  youtube: dlg1n_jMtM0
+  youtube:
+    jj: dlg1n_jMtM0
   description: Composé par Yoko Kanno.
   title: walt
   key: Walt
@@ -327,58 +408,109 @@
   key: Modokashii
 -
   game: Ragnarok Online 2
-  youtube: _oE26jRrE9U
+  youtube:
+    telethon-i: _oE26jRrE9U
   title: Yoru
   description: Composé par Yoko Kanno.
   key: Yoru
 -
   anime: Madlax
-  youtube: d-0yzwt8x_k
+  youtube:
+    telethon-ii: d-0yzwt8x_k
   title: Hitomi no Kakera
   description: Composé par Yuki Kajiura.
   key: HitomiNoKakera
+  desc: OP
 -
   anime: Code Geass
   title: Innocent Days
   key: InnocentDays
+  youtube:
+    epitanime2016-asa: bGdVMhgb1UU
 -
   anime: Fruits Basket
   title: For Fruits Basket
   key: FruitsBasket
+  youtube:
+    mines: ef-s7Ew3qCc
+  desc: OP
 -
   anime: Attack on Titan
   title: Guren no Yumiya
   description: Premier opening
   key: GurenNoYumiya
+  youtube:
+    mines: 94No5SZW_q0
+  desc: OP1
 -
   anime: Your Lie in April
-  title: Hikaru Nara
+  title: Hikaru nara
   description: Premier opening
   key: HikaruNara
+  youtube:
+    epitanime2016-yoru: XqyM3IokPSI
+  desc: OP
 -
   anime: RahXephon
   title: Hemisphere
   description: Premier opening
   key: Hemisphere
+  youtube:
+    mines: Xjb5MlSjLBM
+  desc: OP
 -
   anime: Noir
   title: Canta per me
-  youtube: Utwjmhw1lgE
+  youtube:
+    epitanime2016-yoru: Utwjmhw1lgE
   key: CantaPerMe
 -
   anime: Steins;Gate
   title: Hacking to the Gate
   key: HackingToTheGate
+  youtube:
+    mines: yPku2tp-nW8
+  desc: OP
 -
   anime: Angel Beats!
   title: My Soul, Your Beats!
   key: MySoulYourBeats
+  youtube:
+    mines: tnqMT6cM9tA
+  desc: OP
 -
   anime: ERASED
   title: "Re:Re:"
   key: Re:Re
+  youtube:
+    mines: ZzG-XgCCI5Q
+  desc: OP
 -
   anime: Shinsekai yori
   title: Wareta Ringo
-  youtube: HpFe5yOMxrg
+  youtube:
+    epitanime2016-yoru: HpFe5yOMxrg
   key: WaretaRingo
+  desc: OP
+-
+  anime: Re:Zero
+  title: Paradisus-Paradoxum
+  youtube:
+    mines: tpnEwzpeD00
+  key: ParadisusParadoxum
+  desc: OP2
+-
+  anime: Terror in Resonance
+  youtube:
+    mines: 8aDwZdc5gnk
+  title: Dare ka, Umi wo
+  description: Premier ending
+  key: DareKaUmiWo
+  desc: ED
+-
+  anime: Re:Zero
+  title: Redo
+  youtube:
+    mines: vIl6o_HMko4
+  key: Redo
+  desc: OP1
