@@ -1,15 +1,18 @@
 -
   id: tnqMT6cM9tA
   title: Trio ELM - My Soul, Your Beats (Angel Beats OP cover)
+  featured: true
 -
   id: mv8Ea3kxauI
   title: Trio ELM - Scarlet (Ayashi no Ceres OP cover)
 -
   id: ZzG-XgCCI5Q
   title: "Trio ELM - Re:Re: (Erased OP cover)"
+  featured: true
 -
   id: 94No5SZW_q0
   title: Trio ELM - Guren No Yumiya (Attack on Titan OP cover)
+  featured: true
 -
   id: VAEkbr2R5s4
   title: Trio ELM - Fake Wings (.hack//SIGN OST cover)
@@ -52,6 +55,7 @@
 -
   id: tpnEwzpeD00
   title: Trio ELM - Paradisus-Paradoxum (Re:Zero OP2 cover)
+  featured: true
 -
   id: Xjb5MlSjLBM
   title: Trio ELM - Hemisphere (RahXephon OP cover)
@@ -61,6 +65,7 @@
 -
   id: X6AULh9hOow
   title: Trio ELM - Glassy Sky (Tokyo Ghoul OST/insert cover)
+  featured: true
 -
   id: mUecHmVHWKU
   title: Trio ELM - Bouken Desho Desho? (The Melancholy of Haruhi Suzumiya OP cover)
@@ -82,6 +87,7 @@
 -
   id: XqyM3IokPSI
   title: Trio ELM - Hikaru nara (Your Lie in April OP cover)
+  featured: true
 -
   id: zpf1S_7lziA
   title: Trio ELM - Uragiri no yuuyake (Durarara!! OP)
@@ -106,12 +112,14 @@
 -
   id: ZEX5kHdxkm4
   title: Trio ELM - Yakusoku wa Iranai (Vision of Escaflowne OP cover)
+  featured: true
 -
   id: Aen_x8AHByQ
   title: Trio ELM - Musouka (Utawarerumono OP1 cover)
 -
   id: BHTH23GxXGs
   title: Trio ELM - Lilium (Elfen Lied OP cover)
+  featured: true
 -
   id: V77zryD7dtw
   title: Trio ELM - IS (Terror in Resonance OST/insert cover)
@@ -145,6 +153,7 @@
 -
   id: RP7AvoeaUpM
   title: Trio ELM - Musouka (Utawarerumono op 1 cover)
+  featured: true
 -
   id: 7lt6x_rax6s
   title: Trio ELM - The Sore Feet Song (Mushishi op 1 cover)

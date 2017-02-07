@@ -1,20 +1,15 @@
 {% include "header.html" %}
 
-<body>
+<body onload="document.querySelector('.quicksearch').focus();">
 
   {% include "banner.html" %}
-
-  <div class="section">
-    <div class="container">
-      {% include "news.html" %}
-    </div>
-  </div>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div class="section values">
     <div class="container">
+
       <h2>Écoutez nos dernières vidéos</h2>
       <input type="text" size="36" class="quicksearch form-control" placeholder="Entrez un nom d'anime ou d'anisong" aria-describedby="sizing-addon1"><br />
 
@@ -27,10 +22,12 @@
         <button type="button" data-filter=".mines" class="btn btn-default" style="background: #000 url('/img/concerts/mines.jpg') 50% 20px/cover no-repeat">Mines</button>
       </div>
 
-      <hr />
-      <div id="videos" class="row">
+      <a href="https://twitter.com/intent/tweet?text=Tu aimes la musique d'anime ? Écoute nos reprises !&amp;url=http://trioelm.com&amp;via=trioelm&amp;related=" class="button button-primary" style="border: 1px solid white">Partager sur Twitter</a>
+      <a href="https://facebook.com/sharer.php?u=http://trioelm.com" class="button button-primary" style="border: 1px solid white">Partager sur Facebook</a>
+
+      <div id="videos" class="row" style="margin-top: 2em">
       {% for video in all_videos %}
-        <div class="one-third column value {{ video.concert }}">
+        <div class="one-third column value {{ video.concert }}{% if video.featured %} featured{% endif %}">
           <h5 class="value-heading work">{{ video.work }}</h5>
           <a href="https://youtu.be/{{ video.id }}" class="title">{{ video.title }}</a>
           <div class="youtube-container">
@@ -39,7 +36,7 @@
         </div>
       {% endfor %}
       </div>
-      <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw" target="_blank">Voir toutes les vidéos</a>
+      <a href="https://www.youtube.com/channel/UCbzNJyNJtRx_gOhE9j7DrDw" target="_blank">Voir toutes les vidéos sur YouTube</a>
     </div>
   </div>
 

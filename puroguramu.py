@@ -70,7 +70,7 @@ for video in videos:
     else:
         print('Warning:', video['id'], 'is missing in puroguramu.yaml (%s)' % video['title'])
         title, work = fallback_title, fallback_work
-    all_videos.append(dict(id=video['id'], title=title, work=work, concert=concert_of[video['id']]))
+    all_videos.append(dict(id=video['id'], title=title, work=work, concert=concert_of[video['id']], featured=video.get('featured')))
 
 # Generate index
 # os.system('cp concerts/telethon-ii.html index.html')
