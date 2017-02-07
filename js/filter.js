@@ -367,6 +367,10 @@ function strNorm(str) {
 var qsRegex;
 var qsTag = '*';
 
+function searchFilter(elem) {
+    var condition = qsRegex ? (strNorm(elem.querySelector(".title").textContent).match(qsRegex) || strNorm(elem.querySelector(".work").textContent).match(qsRegex)) : true;
+    return condition;
+}
 
 videosElts = document.querySelector('#videos');
 console.log(videosElts);
@@ -376,34 +380,25 @@ videos = new Isotope(videosElts, {
     cellsByRow: {
         columnWidth: 300,
         rowHeight: 300
-    },
-    filter: function(elem) {
-        var condition = qsRegex ? (strNorm(elem.querySelector(".title").textContent).match(qsRegex) || strNorm(elem.querySelector(".work").textContent).match(qsRegex)) : true;
-        return condition;
     }
 });
 
 var filtersElem = document.querySelector('.filter-btn-group');
 filtersElem.addEventListener( 'click', function( event ) {
-  // only work with buttons
-  console.log('hiya', event.target);
-  if ( !matchesSelector( event.target, 'button' ) ) {
-    return;
-  }
-  var filterValue = event.target.getAttribute('data-filter');
-  videos.arrange({ filter: filterValue });
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+        return;
+    }
+    var filterValue = event.target.getAttribute('data-filter');
+    videos.arrange({ filter: filterValue });
 });
-
-//    var filterValue = $(this).attr('data-filter');
-//    videos.isotope({ filter: filterValue });
 
 // use value of search field to filter
 var quicksearch = document.querySelector('.quicksearch');
 quicksearch.onkeyup = debounce(function() {
-    console.log('hiaai', quicksearch.value);
     qsRegex = new RegExp(strNorm(quicksearch.value), 'gi');
     //  qsText = strNorm($quicksearch.val());
-    videos.arrange();
+    videos.arrange({ filter: searchFilter });
 }, 200);
 
 // debounce so filtering doesn't happen every millisecond
