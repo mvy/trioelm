@@ -140,6 +140,7 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
 
 #videos a {
   line-height: 1em;
+  margin: 0.5rem 0;
 }
 
 .quicksearch {
